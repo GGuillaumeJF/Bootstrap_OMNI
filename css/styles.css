@@ -16,7 +16,6 @@
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  background: #9575CD;
   color: floralwhite; }
 
 address {
@@ -28,8 +27,29 @@ body {
   padding: 50px 0px 0px 0px;
   z-index: 0; }
 
-.navbar-dark {
-  background-color: #512DA8; }
+.navbar-text {
+  padding: 0px;
+  height: auto;
+}
+
+.navbar-dark .navbar-text a , 
+.navbar-dark .navbar-nav .nav-link , 
+.navbar-dark .navbar-nav .nav-link:visited{
+  color:cyan;
+}
+.navbar-dark .navbar-text a:hover,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color:white;
+}
+
+.navbar-nav > li > .dropdown-menu { background-color: #e7e7e7; }
+.navbar-nav > li > .dropdown-menu a{   color: #555555;  }
+
+.navbar-dark .navbar-nav .active>.nav-link{
+color:#D1C4E9;
+}
+
+
 
 .tab-content {
   border-left: 1px solid #ddd;
